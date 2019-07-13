@@ -14,7 +14,7 @@
   "author": "chetan kumar",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^4.12.0",
-    "browser-sync": "^2.12.5 <2.23.2"
+    "browser-sync": "^2.23.1",
+    "node-sass": "^4.12.0"
   }
 }
