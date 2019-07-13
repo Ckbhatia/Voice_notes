@@ -1,0 +1,18 @@
+{
+  "name": "voice_notes",
+  "version": "1.0.0",
+  "description": "voice notes app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w ./assets/stylesheet/main.scss ./assets/stylesheet/main.css"
+  },
+  "keywords": [
+    "voice_notes"
+  ],
+  "author": "chetan kumar",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
