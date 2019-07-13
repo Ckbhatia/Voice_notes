@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass -w ./assets/stylesheet/main.scss ./assets/stylesheet/main.css"
+    "sass": "node-sass -w ./assets/stylesheet/main.scss ./assets/stylesheet/main.css",
+    "start": "browser-sync start --directory --server --files \"*.css, *.html, *.js\""
   },
   "keywords": [
     "voice_notes"
@@ -13,6 +14,7 @@
   "author": "chetan kumar",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.12.0",
+    "browser-sync": "^2.12.5 <2.23.2"
   }
 }
